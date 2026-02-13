@@ -7,5 +7,5 @@ def get_days_from_today(date):
         delta = today - given_date
         return delta.days
     except ValueError:
-        return "Помилка: Неправильний формат дати. Використовуйте РРРР-ММ-ДД."
+        return "Помилка:Неправильний формат дати. Використовуйте РРРР-ММ-ДД."
 print(f"Днів з 2020-10-09: {get_days_from_today('2020-10-09')}")
